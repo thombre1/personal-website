@@ -66,12 +66,15 @@ nav {
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    
 }
 
 .social-link:hover {
     background-color: #333;
     background: linear-gradient(to right, #333, #555);
     color: #fff;
+    box-shadow: 0 0 20px 0 rgba(74, 14, 14, 0.343);
+    
 }
 .profile-image {
     margin-bottom: 15px;
@@ -84,11 +87,13 @@ nav {
     
 }
 #portfolio-button:hover{
-    background: linear-gradient(to right, #009df1e5, #0083e0);
+    background: linear-gradient(to right, #009df1e5, #0c5d6b);
+    box-shadow: 0 0 20px 0 rgba(129, 26, 207, 0.343);
 }  
 
 #youtube-button:hover{
     background: linear-gradient(to right, #f12400e5, #e04000);
+    box-shadow: 0 0 20px 0 rgba(207, 26, 26, 0.343);
 }
 
 .footer-down{
